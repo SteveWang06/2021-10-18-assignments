@@ -4,7 +4,7 @@ int main()
 {  
     int a[8],n,i;
     scanf("%d",&n);  
-    for(i=0;n>0;i++)  
+    for(i=0;i<=8;i++)  
     {  
         a[i]=n%2;  
         n=n/2;  
